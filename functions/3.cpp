@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void pourChai(int &cups){
+void pourChai(int &cups){ // mene yaha lagaya & operator
     cups = cups +5;
     cout<<"Poured cups:"<<cups<<endl;
 }
