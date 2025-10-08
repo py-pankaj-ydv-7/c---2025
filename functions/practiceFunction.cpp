@@ -73,14 +73,45 @@ int  factorial(int num){
 
 //Question 9: Write a function to check whether a number is a prime number or not.
   
-   void primeNum(int num){
-    if(num%2==0){
-        cout<<"not a prime no. "<<num;
+//    void primeNum(int num){
+//     if(num%2==0){
+//         cout<<"not a prime no. "<<num;
+//     }
+//     else{
+//         cout<<"prime no "<<num;
+//     }
+//    }
+
+void primeNum(int num ){
+     
+    bool isPrime = true;
+
+    if(num<=1){
+        cout<<"num is not prime "<<num<<endl;
+        return;
+
+    }
+    
+    for (int i  = 2; i<num; i++)
+    {
+        if(num%i==0){
+            isPrime = false;
+            break;// no need to check further .
+          
+        }
+      }
+    
+    if(isPrime){
+        cout<<"No. is prime no. "<<num<<endl;
     }
     else{
-        cout<<"prime no "<<num;
+        cout<<"no is not a prime no "<<num<<endl;
     }
-   }
+    
+    
+}
+
+
 
 int main(){
     // string name = "pankaj";
@@ -98,7 +129,10 @@ int main(){
     // printTable(3);
     // printTable(4);
     // cout<<factorial(5);
-    primeNum(9);
+    primeNum(7);
+    primeNum(10);
+    primeNum(1);
+    primeNum(13);
 
 
   return 0;
