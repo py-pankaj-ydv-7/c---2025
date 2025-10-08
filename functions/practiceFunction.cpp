@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 // 1. Write a function to print your name 5 times.
@@ -92,7 +93,7 @@ void primeNum(int num ){
 
     }
     
-    for (int i  = 2; i<num; i++)
+    for (int i  = 2; i<= sqrt(num); i++)
     {
         if(num%i==0){
             isPrime = false;
@@ -110,8 +111,6 @@ void primeNum(int num ){
     
     
 }
-
-
 
 int main(){
     // string name = "pankaj";
