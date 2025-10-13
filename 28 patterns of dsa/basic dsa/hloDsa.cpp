@@ -1,8 +1,8 @@
-#include <iostream>
-#include <bits/stdc++.h>
-using namespace  std;
+// #include <iostream>
+// #include <bits/stdc++.h>
+// using namespace  std;
 
-int main(){
+// int main(){
     // cout<<"Hello Dsa "<<endl;
     // cout<<"pankaj "<<endl;
 
@@ -23,17 +23,17 @@ int main(){
 //     product = a*b*c;
 //     cout<<"product = "<<product;
 
-int a,b;
-cout<<"enter a number"<<endl;
-cin>>a;
-cout<<"enter a nuber"<<endl;
-cin>>b;
+// int a,b;
+// cout<<"enter a number"<<endl;
+// cin>>a;
+// cout<<"enter a nuber"<<endl;
+// cin>>b;
 
-int avg;
-avg =(a+b)/2;
-cout<<"avg = "<<avg<<endl;
+// int avg;
+// avg =(a+b)/2;
+// cout<<"avg = "<<avg<<endl;
 
-}
+// }
 
 //***** practice Question ****
 // 3 numbers input unka product peint karna hai 
@@ -41,3 +41,47 @@ cout<<"avg = "<<avg<<endl;
 
 
 
+/******* if else and loops   */
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+
+    // if else 
+
+    // int n = 9;
+    // if(n%2==0){
+    //     cout<<"even"<<endl;
+    // }
+    // else{
+    //     cout<<"odd"<<endl;
+    // }
+
+    // loop
+    // for (int  i = 1; i <= 5; i++)
+    // {
+    //     cout<<i<<". Gautam 5 baar print hoga "<<endl;
+    // }
+
+
+    /** home work
+     *sum of 10 numbers 
+     * sum of first 10 even numbers
+     * sum of even numbers bw 20 and 40 (both included)
+     */
+
+     int sum =0;
+     for (int i = 0; i <=10; i++)
+     {
+        sum=sum+i;
+        cout<<"sum = "<<sum<<endl;
+     }
+     
+    
+
+
+
+}
