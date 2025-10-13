@@ -73,15 +73,37 @@ int main(){
      * sum of even numbers bw 20 and 40 (both included)
      */
 
-     int sum =0;
-     for (int i = 0; i <=10; i++)
-     {
-        sum=sum+i;
-        cout<<"sum = "<<sum<<endl;
-     }
-     
+     //sum of 10 numbers 
+
+    //  int sum =0;
+    //  for (int i = 0; i <=10; i++)
+    //  {
+    //     sum=sum+i;
+    //     cout<<"sum = "<<sum<<endl;
+    //  }
+
+
+    //sum of first 10 even numbers
+
+    // int sum = 0;
+    // int count=0;
+    // for (int i = 1; i<=20; i++)
+    // {
+    //     if(i%2==0){
+    //         count++;
+    //         cout<<count<<" even no  "<<i<<endl;
+    //     }
+    // }
+
+    // sum of even numbers bw 20 and 40 (both included)
+    int sum=0;
+    for (int i = 20; i <=40; i++)
+    {
+        if(i%2==0){
+            sum=sum+i;
+            cout<<i<<" sum = "<<sum<<endl;
+        }
+    }
     
-
-
-
+    
 }
