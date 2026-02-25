@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Pankaj Yadav/c++ 2025/functions",
-      "program": "d:/Pankaj Yadav/c++ 2025/functions/build/Debug/outDebug",
+      "cwd": "d:/Pankaj Yadav/c++ 2025/c++ one shot",
+      "program": "d:/Pankaj Yadav/c++ 2025/c++ one shot/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

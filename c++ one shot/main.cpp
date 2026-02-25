@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     cout<<"Pankaj Yadav"<<endl;
 
-    int a, b, c;
-    short sa = 9;
+    // int a, b, c;
+    // short sa = 9;
     // vartable declaration and initialization rule.
     // int _py = 45;
     // cout<<_py<<endl;
@@ -29,9 +29,23 @@ int main(){
     // score = 6666.76;
 
 
-    cout<<"The score is "<<score<<endl;
-    cout<<"The score2 is "<<score2<<endl;
-    cout<<"The score3 is "<<score3<<endl;
+    // cout<<"The score is "<<score<<endl;
+    // cout<<"The score2 is "<<score2<<endl;
+    // cout<<"The score3 is "<<score3<<endl;
+
+    int  a , b;
+    cout<<"Enter a first number"<<endl;
+    cin>>a;
+    cout<<"Enter b second number"<<endl;
+    cin>>b;
+    // cout<<" a is = "<<a<<" and b is ="<<b<<endl;
+
+
+    // cout<<"a + b is = "<<a + b<<endl;
+    // cout<<"a - b is = "<<a - b<<endl;
+    // cout<<"a * b is = "<<a * b<<endl;
+    // cout<<"a / b is = "<<(float) a / b<<endl;
+    // cout<<"a % b is = "<<a % b<<endl;
 
 
     return 0;
